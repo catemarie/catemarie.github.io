@@ -71,7 +71,7 @@ body {
 	94.11765% {	
 	    clip: rect(31px, 2000px, 46px, 0);
 	}
-	2000px {
+	100% {
 	    clip: rect(102px, 2000px, 40px, 0);
 	}
 }
@@ -128,7 +128,7 @@ body {
 	94.11765% {
 	    clip: rect(30px, 2000px, 22px, 0);
 	}
-	2000px {
+	100% {
 	    clip: rect(16px, 2000px, 76px, 0);
 	}
 }
