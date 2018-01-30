@@ -5,11 +5,15 @@ body {
 .bio {
 	color: #FFFFFF;
 	text-align: center;
+	font-size: 30px;
+	font-family: Raleway;
 }
 
 .nav {
 	color: #FFFFFF;
 	text-align: center;
+	font-size: 30px;
+	font-family: Raleway;
 }
 
 .glitch {
@@ -17,6 +21,8 @@ body {
 	color: white;
 	position: relative;
 	text-align: center;
+	font-family: Raleway;
+	font-weight: 500;
 }
 
 @keyframes glitch-anim-1 {
@@ -103,7 +109,7 @@ body {
 
 .glitch:after {
 	left: 1px;
-	text-shadow: -4px 0 blue;
+	text-shadow: -4px 0 red;
 	animation: glitch-anim-1 1s infinite linear alternate-reverse;
 }
 
