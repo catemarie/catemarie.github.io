@@ -25,6 +25,23 @@ body {
 	font-weight: 500;
 }
 
+.navbar-nav {
+    float:none;
+    margin: 20px;
+    display: block;
+    text-align: center;
+}
+
+.navbar-nav > li {
+    display: inline-block;
+    margin: 0px;
+    float: none;
+}
+
+.navbar-inverse {
+    background-color: #000000;
+}
+
 @keyframes glitch-anim-1 {
 	0% {
 	    clip: rect(110px, 2000px, 100px, 0);
