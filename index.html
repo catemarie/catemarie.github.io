@@ -35,37 +35,44 @@
 
     <!-- Nav tabs -->
     <div class="container">
-      <div class = "nav-pages">
-        <ul class="nav nav-tabs justify-content-center">
-          <li class="nav-item">
-            <a class="nav-link active" data-toggle="tab" href="#home">home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" data-toggle="tab" href="#menu1">about</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" data-toggle="tab" href="#menu2">projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" data-toggle="tab" href="#resume">resume</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" data-toggle="tab" href="#contact">contact</a>
-          </li>
-        </ul>
-      </div>
+      <nav>
+        <div class="nav nav-tabs justify-content-center" id="nav-tab" role="tablist">
+          <a class="nav-item nav-link active" id="nav-about-tab" data-toggle="tab" href="#nav-about" role="tab" aria-controls="nav-about" aria-selected="true">about</a>
+          <a class="nav-item nav-link" id="nav-projects-tab" data-toggle="tab" href="#nav-projects" role="tab" aria-controls="nav-projects" aria-selected="false">projects</a>
+          <a class="nav-item nav-link" id="nav-resume-tab" data-toggle="tab" href="#nav-resume" role="tab" aria-controls="nav-resume" aria-selected="false">resume</a>
+          <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">contact</a>
+        </div>
+      </nav>
     </div>
 
     <!-- Tab panes -->
     <div class="container">
-      <div class="tab-content">
-        <div class="tab-pane container active" id="about">...</div>
-        <div class="tab-pane container fade" id="projects">...</div>
-        <div class="tab-pane container fade" id="resume">...</div>
-        <div class="tab-pane container fade" id="contact">...</div>
+
+      <div class="tab-content" id="nav-tabContent">
+
+        <div class="tab-pane fade show active" id="nav-about" role="tabpanel" aria-labelledby="nav-about-tab">
+          <div class="actual-content">
+            <h5>about</h5>
+            <p>I'm a software engineer with experience in software defined radio, machine learning, and web development.</p>
+            <p>I also like Brazilian Jiu Jitsu, surfing, vegan baking, and my dog (Sam) and cat (Muffin).</p>
+            <p>I currently live in San Diego, CA.</p>
+          </div>
+        </div>
+
+        <div class="tab-pane fade" id="nav-projects" role="tabpanel" aria-labelledby="nav-projects-tab">
+          <h5>projects</h5>
+        </div>
+
+        <div class="tab-pane fade" id="nav-resume" role="tabpanel" aria-labelledby="nav-resume-tab">
+          <h5>resume</h5>
+        </div>
+
+        <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+          <h5>content</h5>
+        </div>
+
       </div>
     </div>
-
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
