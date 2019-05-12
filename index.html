@@ -1,27 +1,75 @@
 <!doctype html>
 <html lang="en">
   <head>
-	<meta charset="utf-8">
+  <meta charset="utf-8">
     <title>Cate Miller</title>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway" />
   </head>
   <body>
 
-    <div class="glitch" data-text="Cate Miller">Cate Miller</div>
-    <div class = "bio">      
-      <p>software engineer</p>
+    <!-- name and bio -->
+    <div class="container">
+      <div class="glitch" data-text="Cate Miller">Cate Miller</div>
+      <div class = "bio">      
+        <p>software engineer</p>
+      </div>
     </div>
 
-    <div class = "social">
-      <a href="https://github.com/catemarie"><img src="images/github.png" alt="github" height="50"></a>
-      <a href="https://www.linkedin.com/in/catemarie/"><img src="images/linkedin.png" alt="linkedin" height="50"></a>
+    <!-- social media -->
+    <div class="container">
+      <div class = "social">
+        <a href="https://github.com/catemarie"><img src="images/github.png" alt="github" height="50"></a>
+        <a href="https://www.linkedin.com/in/catemarie/"><img src="images/linkedin.png" alt="linkedin" height="50"></a>
+      </div>
     </div>
+
+    <!-- Nav tabs -->
+    <div class="container">
+      <div class = "nav-pages">
+        <ul class="nav nav-tabs justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link active" data-toggle="tab" href="#home">home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#menu1">about</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#menu2">projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#resume">resume</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#contact">contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Tab panes -->
+    <div class="container">
+      <div class="tab-content">
+        <div class="tab-pane container active" id="about">...</div>
+        <div class="tab-pane container fade" id="projects">...</div>
+        <div class="tab-pane container fade" id="resume">...</div>
+        <div class="tab-pane container fade" id="contact">...</div>
+      </div>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
   </body>
 </html>
