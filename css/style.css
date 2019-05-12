@@ -1,17 +1,17 @@
 body {
-	background-color: #000000;
+	background-color: white;
 }
 
 .bio {
-	color: #FFFFFF;
+	color: black;
 	text-align: center;
 	font-size: 30px;
 	font-family: Raleway;
-	color: lightgray;
+	color: black;
 }
 
 .social {
-	color: #FFFFFF;
+	color: black;
 	text-align: center;
 	font-size: 30px;
 	font-family: Raleway;
@@ -19,7 +19,7 @@ body {
 
 .glitch {
 	font-size: 150px;
-	color: lightgray;
+	color: white;
 	position: relative;
 	text-align: center;
 	font-family: Raleway;
@@ -130,7 +130,7 @@ li.active a {
 	 top: 0;
 	 left: 0;
 	 width: 100%;
-	 background: black;
+	 background: white;
 	 clip: rect(0, 0, 0, 0);
 }
 
