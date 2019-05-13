@@ -1,121 +1,169 @@
 body {
-	background-color: white;
+  background-color: white;
+  font-family: Raleway;
 }
 
-.bio {
-	color: black;
-	text-align: center;
-	font-size: 30px;
-	font-family: Raleway;
-	color: black;
+h4 {
+  text-align: center;
+  font-weight: bold;
+}
+
+h5 {
+  text-align: center;
+  font-weight: bold;
 }
 
 .social {
-	color: black;
-	text-align: center;
-	font-size: 30px;
-	font-family: Raleway;
+  color: black;
+  text-align: center;
+  font-style: italic;
 }
 
 .glitch {
-	font-size: 150px;
-	color: black;
-	position: relative;
-	text-align: center;
-	font-family: Raleway;
-	font-weight: 500;
+  font-size: 50px;
+  color: black;
+  position: relative;
+  text-align: center;
+  font-weight: bold;
+}
+
+.nav-link {
+  color: black;
+}
+
+.nav-link:hover {
+  color: black;
+  font-weight: bold;
+}
+
+.nav-tabs .nav-link.active {
+  color:black;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  text-shadow:
+    -1px -1px 0 lightblue,
+    1px -1px 0 pink,
+    -1px 1px 0 lightblue,
+    1px 1px 0 pink;
+}
+
+.container {
+  padding: 10px;
+}
+
+.actual-content {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+img {
+  padding: 10px
+}
+
+a:link {
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+a:visited {
+  color: black;
 }
 
 @keyframes glitch-anim-1 {
-	0% {
-	    clip: rect(110px, 2000px, 100px, 0);
-	}
-	10% {
-	    clip: rect(150px, 2000px, 70px, 0);
-	}
-	20% {
-	    clip: rect(90px, 2000px, 110px, 0);
-	}
-	30% {
-	    clip: rect(100px, 2000px, 130px, 0);
-	}
-	40% {
-	    clip: rect(20px, 2000px, 90px, 0);
-	}
-	50% {
-	    clip: rect(140px, 2000px, 140px, 0);
-	}
-	60% {
-	    clip: rect(130px, 2000px, 120px, 0);
-	}
-	70% {
-	    clip: rect(30px, 2000px, 150px, 0);
-	}
-	80% {
-	    clip: rect(50px, 2000px, 50px,0);
-	}
-	90% {
-	    clip: rect(60px, 2000px, 80px, 0);
-	}
-	100% {
-	    clip: rect(120px, 2000px, 60px, 0);
-	}
+  0% {
+    clip: rect(110px, 2000px, 100px, 0);
+  }
+  10% {
+    clip: rect(150px, 2000px, 70px, 0);
+  }
+  20% {
+    clip: rect(90px, 2000px, 110px, 0);
+  }
+  30% {
+    clip: rect(100px, 2000px, 130px, 0);
+  }
+  40% {
+    clip: rect(20px, 2000px, 90px, 0);
+  }
+  50% {
+    clip: rect(140px, 2000px, 140px, 0);
+  }
+  60% {
+    clip: rect(130px, 2000px, 120px, 0);
+  }
+  70% {
+    clip: rect(30px, 2000px, 150px, 0);
+  }
+  80% {
+    clip: rect(50px, 2000px, 50px,0);
+  }
+  90% {
+    clip: rect(60px, 2000px, 80px, 0);
+  }
+  100% {
+    clip: rect(120px, 2000px, 60px, 0);
+  }
 }
 
 @keyframes glitch-anim-2 {
-	0% {
-	    clip: rect(150px, 2000px, 90px, 0);
-	}
-	10% {
-	    clip: rect(60px, 2000px, 110px, 0);
-	}
-	20% {
-	    clip: rect(30px, 2000px, 70px, 0);
-	}
-	30% {
-	    clip: rect(90px, 2000px, 20px, 0);
-	}
-	40% {
-	    clip: rect(110px, 2000px, 130px, 0);
-	}	
-    50% {
-        clip: rect(50px, 2000px, 80px, 0);
-    }
-    60% {
-       	clip: rect(140px, 2000px, 140px, 0);
-    }
-	70% {
-	    clip: rect(120px, 2000px, 30px, 0);
-	}		
-	80% {
-	    clip: rect(20px, 2000px, 110px, 0);
-	}
-	90% {
-	    clip: rect(130px, 2000px, 150px, 0);
-	}
-	100% {
-	    clip: rect(10px, 2000px, 120px, 0);
-	}
+  0% {
+    clip: rect(150px, 2000px, 90px, 0);
+  }
+  10% {
+    clip: rect(60px, 2000px, 110px, 0);
+  }
+  20% {
+    clip: rect(30px, 2000px, 70px, 0);
+  }
+  30% {
+    clip: rect(90px, 2000px, 20px, 0);
+  }
+  40% {
+    clip: rect(110px, 2000px, 130px, 0);
+  } 
+  50% {
+    clip: rect(50px, 2000px, 80px, 0);
+  }
+  60% {
+    clip: rect(140px, 2000px, 140px, 0);
+  }
+  70% {
+    clip: rect(120px, 2000px, 30px, 0);
+  }   
+  80% {
+    clip: rect(20px, 2000px, 110px, 0);
+  }
+  90% {
+    clip: rect(130px, 2000px, 150px, 0);
+  }
+  100% {
+    clip: rect(10px, 2000px, 120px, 0);
+  }
 }
 
 .glitch:before, .glitch:after {
-	 content: attr(data-text);
-	 position: absolute;
-	 top: 0;
-	 left: 0;
-	 width: 100%;
-	 background: white;
-	 clip: rect(0, 0, 0, 0);
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: white;
+  clip: rect(0, 0, 0, 0);
 }
 
 .glitch:after {
-	left: 1px;
-	text-shadow: -8px 0 pink;
-	animation: glitch-anim-1 1s infinite linear alternate-reverse;
+  left: 1px;
+  text-shadow: -8px 0 pink;
+  animation: glitch-anim-1 1s infinite linear alternate-reverse;
 }
 
 .glitch:before {
-	left: -1px;
-	text-shadow: 8px 0 lightblue;
-	animation: glitch-anim-2 1.5s infinite linear alternate-reverse;
+  left: -1px;
+  text-shadow: 8px 0 lightblue;
+  animation: glitch-anim-2 1.5s infinite linear alternate-reverse;
 }
