@@ -3,6 +3,11 @@ body {
   font-family: Raleway;
 }
 
+h4 {
+  text-align: center;
+  font-weight: bold;
+}
+
 h5 {
   text-align: center;
   font-weight: bold;
@@ -51,8 +56,22 @@ h5 {
   margin-right: 10%;
 }
 
-#selfie {
+img {
   padding: 10px
+}
+
+a:link {
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+a:visited {
+  color: black;
 }
 
 @keyframes glitch-anim-1 {
