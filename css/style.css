@@ -1,48 +1,53 @@
 body {
-  background-color: white;
+  background-color: #323232;
   font-family: Raleway;
+  color: darkgray;
 }
 
 h4 {
   text-align: center;
   font-weight: bold;
+  color: pink;
 }
 
 h5 {
   text-align: center;
   font-weight: bold;
+  color: pink;
 }
 
 h6 {
   text-align: center;
   font-weight: bold;
+  color: pink;
 }
 
 .social {
-  color: black;
+  color: darkgray;
   text-align: center;
   font-style: italic;
 }
 
 .glitch {
   font-size: 50px;
-  color: black;
+  color: darkgray;
   position: relative;
   text-align: center;
   font-weight: bold;
 }
 
 .nav-link {
-  color: black;
+  color: lightblue;
 }
 
 .nav-link:hover {
-  color: black;
+  color: pink;
   font-weight: bold;
 }
 
 .nav-tabs .nav-link.active {
-  color:black;
+  color: #323232;
+  background-color: #323232;
   font-weight: bold;
   -webkit-font-smoothing: antialiased;
   text-shadow:
@@ -66,17 +71,17 @@ img {
 }
 
 a:link {
-  color: black;
+  color: lightblue;
+}
+
+a:visited {
+  color: lightblue;
 }
 
 a:hover {
   text-decoration: none;
-  color: black;
+  color: white;
   font-weight: bold;
-}
-
-a:visited {
-  color: black;
 }
 
 @keyframes glitch-anim-1 {
@@ -157,7 +162,7 @@ a:visited {
   top: 0;
   left: 0;
   width: 100%;
-  background: white;
+  background: #323232;
   clip: rect(0, 0, 0, 0);
 }
 
