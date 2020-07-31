@@ -1,60 +1,66 @@
 body {
-  background-color: #323232;
+  background-color: white;
   font-family: Raleway;
-  color: darkgray;
+  color: black;
+}
+
+h3 {
+  text-align: center;
+  font-weight: bold;
+  color: black;
 }
 
 h4 {
   text-align: center;
   font-weight: bold;
-  color: pink;
+  color: black;
 }
 
 h5 {
   text-align: center;
   font-weight: bold;
-  color: pink;
+  color: black;
 }
 
 h6 {
   text-align: center;
   font-weight: bold;
-  color: pink;
+  color: black;
 }
 
 .social {
-  color: darkgray;
+  color: black;
   text-align: center;
-  font-style: italic;
 }
 
 .glitch {
-  font-size: 50px;
-  color: darkgray;
+  font-size: 70px;
+  color: black;
   position: relative;
   text-align: center;
   font-weight: bold;
 }
 
 .nav-link {
-  color: lightblue;
+  color: black;
+  font-size: 20px;
 }
 
 .nav-link:hover {
-  color: pink;
+  color: thistle;
   font-weight: bold;
 }
 
 .nav-tabs .nav-link.active {
-  color: #323232;
-  background-color: #323232;
+  color: black;
+  background-color: white;
   font-weight: bold;
   -webkit-font-smoothing: antialiased;
   text-shadow:
-    -1px -1px 0 lightblue,
-    1px -1px 0 pink,
-    -1px 1px 0 lightblue,
-    1px 1px 0 pink;
+    -1px -1px 0 indigo,
+    1px -1px 0 thistle,
+    -1px 1px 0 indigo,
+    1px 1px 0 thistle;
 }
 
 .container {
@@ -62,8 +68,8 @@ h6 {
 }
 
 .actual-content {
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 img {
@@ -71,16 +77,16 @@ img {
 }
 
 a:link {
-  color: lightblue;
+  color: indigo;
 }
 
 a:visited {
-  color: lightblue;
+  color: indigo;
 }
 
 a:hover {
   text-decoration: none;
-  color: white;
+  color: thistle;
   font-weight: bold;
 }
 
@@ -162,18 +168,18 @@ a:hover {
   top: 0;
   left: 0;
   width: 100%;
-  background: #323232;
+  background: white;
   clip: rect(0, 0, 0, 0);
 }
 
 .glitch:after {
   left: 1px;
-  text-shadow: -8px 0 pink;
+  text-shadow: -8px 0 thistle;
   animation: glitch-anim-1 1s infinite linear alternate-reverse;
 }
 
 .glitch:before {
   left: -1px;
-  text-shadow: 8px 0 lightblue;
+  text-shadow: 8px 0 thistle;
   animation: glitch-anim-2 1.5s infinite linear alternate-reverse;
 }
