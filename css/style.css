@@ -8,13 +8,9 @@ body {
 h1 {
   text-align: center;
   font-weight: bold;
-  color: black;
+  color: lavender;
   font-size: 6vw;
-  text-shadow:
-    -2px -2px 0 lavender,
-    2px -2px 0 lavender,
-    -2px 2px 0 lavender,
-    2px 2px 0 lavender;
+  -webkit-text-stroke: 1px black;
 }
 
 h2 {
@@ -43,19 +39,21 @@ h6 {
 }
 
 .nav-link {
-  color: thistle;
-  font-weight: lighter;
+  color: lavender;
+  font-weight: bold;
+  -webkit-text-stroke: 1px black;
 }
 
 .nav-link:hover {
-  color: lavender;
+  color: black;
   font-weight: bold;
+  -webkit-text-stroke: 1px lavender;
 }
 
 .nav-tabs .nav-link.active {
-  background-color: white;
-  font-weight: bolder;
-  color: black;
+  color: lavender;
+  font-weight: bold;
+  -webkit-text-stroke: 1px black;
 }
 
 .container {
@@ -72,15 +70,19 @@ img {
 }
 
 a:link {
-  color: thistle;
+  color: lavender;
+  font-weight: bold;
+  -webkit-text-stroke: 1px black;
 }
 
 a:visited {
-  color: thistle;
+  color: lavender;
+  font-weight: bold;
+  -webkit-text-stroke: 1px black;
 }
 
 a:hover {
-  text-decoration: none;
-  color: lavender;
+  color: black;
   font-weight: bold;
+  -webkit-text-stroke: 1px lavender;
 }
